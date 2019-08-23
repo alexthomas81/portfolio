@@ -1,0 +1,49 @@
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-left: 3px;
+    color: aliceblue;
+    float: left;
+    margin-right: 8px;
+}
+.Flex-box{    
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+a {
+    color: darkolivegreen;
+    font-style: normal;
+    text-decoration: darkolivegreen;
+}
+
+@media screen and (max-width: 375px){
+    body {
+        background-color : lightyellow;
+    }
+}
+.topImage{
+    border: 0px;
+    background-color: rgb(231, 229, 229);
+    width: 13vw;
+    float: left;
+    height: 700px;
+}
+.topName{
+    text-align: center;
+    border: 0px;
+    width: 60vw;
+    float: left;
+    font-size: 3em;
+    height: 120px;
+}
+.topLinks{
+    text-align: center;
+    border: 0px;
+    width: 25vw;
+    float: left;
+    height: 200px;
+}
